@@ -1,0 +1,33 @@
+
+************for preprocessing data use this files:************
+
+1. preprocessing_train_data.py  ---> for train data 
+2. preprocessing_test_data.py  ---> for test data
+
+************for train data use this files:************
+
+1. new_costum_layer_train.py ---> for BERT + CNN model
+2. train.py ---> for BERT model
+3. count-vectorizer-train-model.py ---> for count vectorizing model
+
+
+************for usage and export test data use this files:************
+
+1. new_costum_layer_usage_batch.py ---> for BERT+CNN usage model
+2. usage_batch.py ---> for BERT usage model
+3. count-vect-usage.py ---> for count vectorizing usage
+
+************other files:************
+
+1. count_builder_feature_vector.py --> build feature vector for count vectorizing model
+2. count-vectorizer-builder-vocab.py ---> build vocab for building count vector of sentences
+
+
+
+
++++++++++ H E L P +++++++++
+
+for run the project you must first pre pare data 
+then run train model files 
+at last run usage .py files
+
